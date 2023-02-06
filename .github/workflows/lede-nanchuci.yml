@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/abc2008208/nanchuci
+  REPO_URL: https://github.com/open0072023/nanchuci
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/lede-nanchuci.config
