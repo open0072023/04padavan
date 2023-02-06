@@ -11,4 +11,7 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.3.1/g' package/base-files/files/bin/config_generate
+
+# 修改主机名，替换 MSG1500 部分（不能纯数字或者中文）
+sed -i 's/OpenWrt/MSG1500/g' package/base-files/files/bin/config_generate
