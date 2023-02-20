@@ -8,6 +8,7 @@ on:
         description: 'target to compile'
         options:
         - MSG1500-7615
+        - R6220
         - K2P
         default: 'MSG1500-7615'
       plugins:
