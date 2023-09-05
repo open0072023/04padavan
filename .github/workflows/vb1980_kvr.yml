@@ -9,8 +9,8 @@ on:
         options:
         - MSG1500-7615
         - R6220
-        - K2P
-        default: 'MSG1500-7615'
+        - ZTE_E8820S
+        default: 'ZTE_E8820S'
       plugins:
         description: 'json format string of include configs'
         required: true
