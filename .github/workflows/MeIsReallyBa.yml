@@ -8,8 +8,8 @@ on:
         description: 'target to compile'
         options:
         - MSG1500
-        - K2P
-        default: 'MSG1500'
+        - ZTE-E8820S
+        default: 'ZTE-E8820S'
       plugins:
         description: 'json format string of include configs'
         required: true
